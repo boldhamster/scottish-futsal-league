@@ -1,11 +1,12 @@
-.navbar {
-  background-color: #3F3833;
 
-}
 
-.badge-dark {
+/* .badge-dark {
 
   border-radius: 20px;
   padding: 10px;
   font-size: 14px;
+} */
+
+body {
+  background-color: red;
 }
