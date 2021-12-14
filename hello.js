@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs'); // file system
 var url = require('url');
+const PORT = process.env.PORT || 5000 // heroku's port (form docs)
 
 http.createServer(function (req, res) {
   var q = url.parse(req.url, true);
@@ -23,7 +24,7 @@ http.createServer(function (req, res) {
   });
 
 
-}).listen(8080);
+}).listen(PORT);
 
 
 console.log("Server Listening on Port 8080...");
