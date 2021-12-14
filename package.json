@@ -1,0 +1,19 @@
+{
+  "name": "nodefiles",
+  "version": "16.13.1",
+  "description": "SFL Web App",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boldhamster/Scottish-Futsal-League.git"
+  },
+  "author": "Bold Hamster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boldhamster/Scottish-Futsal-League/issues"
+  },
+  "homepage": "https://github.com/boldhamster/Scottish-Futsal-League#readme"
+}
