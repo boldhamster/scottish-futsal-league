@@ -1,0 +1,6 @@
+
+
+// run node server and test links
+// go back to tuts for more lessons (sql, heroku)
+// find photo wheel on bs and add to page
+// add table to page
