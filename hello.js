@@ -1,7 +1,31 @@
 var http = require('http');
 var fs = require('fs'); // file system
 var url = require('url');
-const PORT = process.env.PORT || 5000 // heroku's port (form docs)
+var mysql = require('mysql');
+
+// // Create MySql connection
+// var con = mysql.createConnection({
+//   host: "localhost", // db loc
+//   user: "root",
+//   password: "",
+//   database: "nodedb",
+// })
+
+// Connect to MySQL
+// con.connect(function(err) {
+//   if (err) {
+//     throw err;
+//   } else {
+//     console.log("Connected to Database");
+//     // create a database query using a SQL command, returns error or result
+//     con.query("CREATE DATABASE nodeDB", function (err, result) {
+//       if (err) throw err;
+//       console.log("Database created")
+//     });
+//   }
+// });
+
+// const PORT = process.env.PORT || 5000 // heroku's port (form docs)
 
 http.createServer(function (req, res) {
   var q = url.parse(req.url, true);
@@ -23,8 +47,7 @@ http.createServer(function (req, res) {
     return res.end();
   });
 
-
-}).listen(PORT);
-
+}).listen(8080);
+// }).listen(PORT); // <-- mySQL version
 
 console.log("Server Listening on Port 8080...");

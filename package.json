@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/boldhamster/Scottish-Futsal-League/issues"
   },
-  "homepage": "https://github.com/boldhamster/Scottish-Futsal-League#readme"
+  "homepage": "https://github.com/boldhamster/Scottish-Futsal-League#readme",
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
 }
